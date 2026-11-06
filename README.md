@@ -30,11 +30,8 @@ All copy lives in one file: [`src/content/site.ts`](src/content/site.ts).
 Change headlines, service descriptions, process steps, values and contact
 details there; no component changes are needed.
 
-Placeholders to replace before going live (search for `TODO` in that file):
-
-- `site.email` — currently `hello@knightcoretech.com`
-- `site.phone` — currently a 555 number
-- `site.location`
+Contact details (`site.email`, `site.phone`, `site.location`) are at the top of
+that file.
 
 The contact form opens the visitor's email client with a pre-filled message
 (no backend required). To send through a service instead, swap the handler in

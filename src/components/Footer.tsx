@@ -23,10 +23,17 @@ export default function Footer() {
         <p>
           © {year} {site.legalName}. All rights reserved.
         </p>
-        <p>
-          <a href={`mailto:${site.email}`} className="hover:text-white">
-            {site.email}
-          </a>
+        <p className="flex flex-col gap-1 md:items-end">
+          <span>{site.location}</span>
+          <span>
+            <a href={`mailto:${site.email}`} className="hover:text-white">
+              {site.email}
+            </a>
+            {" · "}
+            <a href={`tel:${site.phone.replace(/[^+\d]/g, "")}`} className="hover:text-white">
+              {site.phone}
+            </a>
+          </span>
         </p>
       </Container>
     </footer>

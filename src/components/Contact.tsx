@@ -31,7 +31,7 @@ export default function Contact() {
               </dd>
             </div>
             <div className="flex gap-3">
-              <dt className="w-20 font-semibold text-navy-900">Based in</dt>
+              <dt className="w-20 font-semibold text-navy-900">Address</dt>
               <dd>{site.location}</dd>
             </div>
           </dl>

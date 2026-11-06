@@ -5,10 +5,9 @@ export const site = {
   tagline: "Strategy, Security, and Scale.",
   description:
     "KnightCore Technologies LLC is an IT consulting firm helping growing businesses with technology strategy, cloud infrastructure, cybersecurity and custom software.",
-  // TODO: replace these placeholders with the real contact details.
-  email: "hello@knightcoretech.com",
-  phone: "+1 (555) 010-2040",
-  location: "United States",
+  email: "ahmad@knightcore.tech",
+  phone: "+1 (850) 525-0426",
+  location: "5307 Rivers Edge Dr, Richmond, TX 77469",
   ctaLabel: "Schedule a Discovery Call",
   ctaHref: "#contact",
   nav: [
